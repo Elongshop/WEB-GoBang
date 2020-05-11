@@ -1,0 +1,65 @@
+body {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	background-color: #f2f3f7;
+}
+
+button {
+	border: none;
+	height: 35px;
+	min-width: 140px;
+	padding: 0 20px;
+	background-color: #00a4ff;
+	color: #fff;
+	font-size: 14px;
+	line-height: 35px;
+	text-align: center;
+	display: inline-block;
+	cursor: pointer;
+	outline: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#startbtn {
+	margin: 30px auto;
+}
+
+.topshow {
+	color: #555;
+	font-size: 22px;
+	text-align: center;
+	font-weight: 900;
+	margin: 30px 0;
+}
+
+#chess {
+	width: 95%;
+	max-width: 480px;
+	position: relative;
+	margin: 0px auto;
+}
+
+#canvas {
+	width: 100%;
+	position: relative;
+	background-color: #f8e8b7;
+	display: block;
+}
+
+#newpos {
+	position: absolute;
+	width: 5%;
+	height: 5%;
+}
+
+p {
+	font-size: 12px !important;
+	width: 95%;
+	max-width: 480px;
+	margin: 10px auto;
+	line-height: 25px;
+	color: #898989;
+}
